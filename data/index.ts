@@ -91,35 +91,36 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "Collaborating with Awais was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Awais's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Awais is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Awais's web development skills are truly top-notch. He took our vision and brought it to life with stunning precision. His attention to detail and ability to deliver pixel-perfect designs made our project a success. I highly recommend Awais for any front-end development needs.",
+      name: "Muhammad Abrar",
+      title: "Software Engineer at Speedy Brilliant",
     },
     {
       quote:
-        "Collaborating with Awais was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Awais's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Awais is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Working with Awais was a seamless experience. His expertise in front-end development and design brought a fresh perspective to our project. The results were beyond our expectations, and his professionalism ensured everything was delivered on time.",
+      name: "Hamza Faham",
+      title: "Business Developer at Pixim Panda",
     },
     {
       quote:
-        "Collaborating with Awais was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Awais's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Awais is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Awais is a fantastic web developer who excels at creating intuitive and visually appealing user interfaces. His work on our website significantly improved our online presence. He is creative, reliable, and a true professional.",
+      name: "Muhammad Shehzad",
+      title: "Team Lead at Mahaban Hospital",
     },
     {
       quote:
-        "Collaborating with Awais was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Awais's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Awais is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Awais's blend of web development and graphic design skills made him the perfect fit for our project. His ability to create aesthetically pleasing and functional websites is outstanding. We couldn’t have asked for a better partner to work with.",
+      name: "Mehmood Shaida",
+      title: "Managing Director at Utman Press",
     },
     {
       quote:
-        "Collaborating with Awais was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Awais's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Awais is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Awais transformed our website with his exceptional front-end development skills. His understanding of user experience and design aesthetics resulted in a site that is not only visually appealing but also highly functional. Highly recommended!",
+      name: "Muhammad Ayaz",
+      title: "Principal at Swabi College of Sciences",
     },
   ];
+  
   
   export const companies = [
     {
@@ -157,45 +158,43 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Web Developer – PiximPanda",
+      desc: "Developed VMP and admin-dashboard using MERN. Optimized performance and mentored junior devs.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
+      title: "Web Developer – Omnisoftex",
+      desc: "Promoted from intern to front-end dev. Led Next.js project and contributed to a full-stack job portal.",
+      className: "md:col-span-2",
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
+      title: "Web Intern – PiximPanda, Maini",
+      desc: "Learned front-end development with Bootstrap and Material-UI. Executed key programming tasks.",
+      className: "md:col-span-2",
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "Graphic Designer – Utman Press",
+      desc: "Designed UIs/UX for websites. Managed client interactions and handled accounts.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
-  ];
-  
+  ];  
+
   export const socialMedia = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/imdeveloper100",
     },
     {
       id: 2,
-      img: "/twit.svg",
-    },
-    {
-      id: 3,
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/awaisrehman100/",
     },
   ];

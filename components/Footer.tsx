@@ -1,4 +1,6 @@
 import React from "react";
+import Link from "next/link";
+import Image from "next/image";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
 import { socialMedia } from "@/data";
@@ -7,10 +9,12 @@ const Footer = () => {
   return (
     <footer className="w-full pt-20 pb-10" id="contact">
       <div className="w-full absolute left-0 -bottom-72 min-h-96 overflow-clip">
-        <img
+        <Image
           src="/footer-grid.svg"
           alt="grid"
-          className="w-full h-full opacity-50"
+          layout="fill"
+          objectFit="cover"
+          className="opacity-50"
         />
       </div>
       <div className="flex flex-col items-center">
@@ -35,13 +39,21 @@ const Footer = () => {
           Copyright © 2024 Awais Rehman
         </p>
         <div className="flex items-center md:gap-3 gap-6">
-            {socialMedia.map((profile) => (
-            <div className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
-            key={profile.id}
+          {socialMedia.map((profile) => (
+            <Link
+              href={profile.link}
+              key={profile.id}
+              passHref
+              className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
             >
-                <img src={profile.img} alt={profile.img} width={20} height={20} />
-            </div>
-            ))}
+              <Image
+                src={profile.img}
+                alt="Social Media Icon"
+                width={20}
+                height={20}
+              />
+            </Link>
+          ))}
         </div>
       </div>
     </footer>
