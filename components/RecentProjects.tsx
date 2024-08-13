@@ -7,12 +7,12 @@ import Image from "next/image";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20" id="projects">
+    <div className="py-20 mt-10" id="projects">
       <h1 className="heading">
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 md:mt-10 ">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-2 ">
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div
             key={id}
