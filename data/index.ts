@@ -74,18 +74,35 @@ export const navItems = [
       id: 1,
       title: "VMP - Vehicles & Spare Parts online marketplace",
       des: "VMP is an online marketplace for buying and selling vehicles and spare parts, built to connect buyers and sellers efficiently.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      img: "/vmp.png",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg",],
       link: "https://vmp-two.vercel.app/",
     },
-    {
-      id: 2,
-      title: "Travel Book - Social Media Platform for Tourists",
-      des: "Travel Book is a social media platform for tourists, built with Next.js and React, enabling users to share travel experiences, connect with fellow travelers, and discover new destinations.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/imdeveloper100/travel-book",
-    },
+
+  {
+    id: 2,
+    title: "VMP Admin Dashboard",
+    des: "An admin dashboard for the VMP project, providing insights into the current cars, spare parts, and users registered on the platform.",
+    img: "/vmp-dashboard.png",
+    iconLists: ["/re.svg", "/tail.svg",],
+    link: "https://github.com/imdeveloper100/vmp-admin-dashboard/",
+  },
+  {
+    id: 3,
+    title: "Travel Book - Social Media Platform for Tourists",
+    des: "Travel Book is a social media platform for tourists, built with Next.js and React, enabling users to share travel experiences, connect with fellow travelers, and discover new destinations.",
+    img: "/travelbook.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    link: "https://github.com/imdeveloper100/travel-book",
+  },
+  {
+    id: 4,
+    title: "Swabi College of Science",
+    des: "Swabi College of Science is a premier institution known for its excellence in science education, offering top-tier programs in Pre-Medical, Pre-Engineering, and Computer Science.",
+    img: "/swabicollege.png",
+    iconLists: ["/re.svg", "/tail.svg", "/c.svg",],
+    link: "https://github.com/imdeveloper100/swabi-college", 
+  },
   ];
   
   export const testimonials = [

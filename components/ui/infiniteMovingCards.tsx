@@ -2,6 +2,7 @@
 
 import { cn } from "@/lib/utils";
 import React, { useEffect, useState } from "react";
+import Image from "next/image"; // Import Image from next/image
 
 export const InfiniteMovingCards = ({
   items,
@@ -104,8 +105,14 @@ export const InfiniteMovingCards = ({
                 {item.quote}
               </span>
               <div className="relative z-20 mt-6 flex flex-row items-center">
-                <div className="me-3 ">
-                  <img src="/profile.svg" height={50} width={50} alt="profile" />
+              <div className="me-3 ">
+                  <Image
+                    src="/profile.svg"
+                    height={50}
+                    width={50}
+                    alt="profile"
+                    className="rounded-full"
+                  />
                 </div>
                 <span className="flex flex-col gap-1">
                   <span className=" text-xl leading-[1.6] text-white font-semibold">
